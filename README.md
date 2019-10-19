@@ -11,7 +11,7 @@ It was given by the associate professor [**"Olivier Schwander"**](http://www-con
 It is a binary classification problem where we will use the simulated data with features characterizing events detected by ATLAS, we should classify examples ( particles events ) into "tau tau decay of a Higgs boson" encoded by ‘s’ ( aka signal )  versus "background" encoded by ‘b’ .
 The target is represented by the column “Label” .
 
-The evaluation metric used is the AMS and it's described as the following : 
+The evaluation metric used is the AMS and it's described as the following ( click on the image for a clear image ) : 
 <a href="https://ibb.co/6ZGbWYK"><img src="https://i.ibb.co/ZJvKMdQ/Izly.png" alt="Izly" border="0"></a>
 
 We need a column called 'weights' in order to estimate this metric of this challenge which is fundamentally based on the latter . Thus we will gather it from CERN open data : http://opendata.cern.ch/record/328  . However ,  for a good ethical challenging environment 
