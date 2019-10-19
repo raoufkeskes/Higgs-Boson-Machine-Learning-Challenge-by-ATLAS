@@ -14,13 +14,12 @@ The target is represented by the column “Label” .
 The evaluation metric used is the AMS and it's described as the following ( click on the image for a clear image ) : 
 <a href="https://ibb.co/6ZGbWYK"><img src="https://i.ibb.co/ZJvKMdQ/Izly.png" alt="Izly" border="0"></a>
 
-We need a column called 'weights' in order to estimate this metric of this challenge which is fundamentally based on the latter . Thus we will gather it from CERN open data : http://opendata.cern.ch/record/328  . However ,  for a good ethical challenging environment 
-we will obviously never use the testing data and keep it **unseen** for a true trustful model estimation of our work  .
+We need a fundamental column called 'weights' of our testing data in order to estimate the metric of this challenge . Thus we will gather it from CERN open data : http://opendata.cern.ch/record/328  .
+However ,  for a good ethical challenging environment we will obviously never use the testing data and keep it **unseen** for a true trustful model estimation of our work to evaluate ourselves and learn .
 
 a full report was given to expain the entire approach 
 
 ## Testing 
-
 
 ## License
 October,2019
