@@ -1,7 +1,7 @@
 # Higgs-Boson-Machine-Learning-Challenge-by-ATLAS
 
 
-<a align="center" href="https://ibb.co/mhzwBFP"><img src="https://i.ibb.co/XFJg4kG/ddd.png" alt="ddd" border="0"></a>
+<center> <a href="https://ibb.co/mhzwBFP"><img src="https://i.ibb.co/XFJg4kG/ddd.png" alt="ddd" border="0"></a> </center>
 
 
 ## About The project 
