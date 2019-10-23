@@ -26,22 +26,13 @@ our final submitted KAGGLE score is    : 3.54272
 the winner has a score of              : 3.80581
 
 ## how to test it 
-- Install lightGBM following these instructions : https://lightgbm.readthedocs.io/en/latest/Installation-Guide.html
+1)  Install lightGBM following these instructions : https://lightgbm.readthedocs.io/en/latest/Installation-Guide.html
+
+2) this is a code snippet for AMSMetric
 ```
-import lightgbm as lgb
-
-
-clf = lgb.Booster(model_file='model.txt') 
-
-# fine_tuned threshold
-threshold = 0.84
-
-Y_pred = ( clf.predict ( X_test ) > th ).astype("int") 
-
-
 #### define the AMS score ####
 '''
-- an implementation of the AMS score of you need it to evaluate 
+- an implementation of the AMS score of you need it on your validation set 
 '''
 def ams(s, b):
     return np.sqrt(2 * ((s + b + 10) * np.log(1.0 + s/(b + 10)) - s))
@@ -53,6 +44,20 @@ def get_ams_score(W, Y, Y_pred):
     b = np.sum(b)
     return ams(s, b)
 #############################
+```
+
+3) load the model and predict 
+```
+import lightgbm as lgb
+
+
+clf = lgb.Booster(model_file='model.txt') 
+
+# fine_tuned threshold
+threshold = 0.84
+
+Y_pred = ( clf.predict ( X_test ) > th ).astype("int") 
+
 
 ```
 
