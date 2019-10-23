@@ -23,9 +23,11 @@ we have been working for days fine-tuning a [**"LightGBM"**](https://lightgbm.re
 ## Results 
 trained/validated on ( 250 000 examples ) tested on ( 550 000 examples ) 
 
-our final lately submitted kaggle score is    : 3.54272
+our final lately submitted kaggle score is    : **3.54272**
 
-the winner has a score of                     : 3.80581
+the winner has a score of                     : **3.80581**
+
+We are sure that if we had more time and only one project to do we would outperform him 
 
 ## how to test it 
 1)  Install lightGBM following these instructions : https://lightgbm.readthedocs.io/en/latest/Installation-Guide.html
