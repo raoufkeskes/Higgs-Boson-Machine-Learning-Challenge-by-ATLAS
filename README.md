@@ -18,7 +18,7 @@ The evaluation metric used is the AMS and it's described as the following ( clic
 **a full report was given to expain the entire approach from scratch**
 
 ## Our outstanding model !
-we have been working for days fine-tuning a [**"LightGBM"**](https://lightgbm.readthedocs.io) model on the validation set .  
+we have been working for hours and hours fine-tuning a [**"LightGBM"**](https://lightgbm.readthedocs.io) model on the validation set .  
 
 ## Results 
 trained/validated on ( 250 000 examples ) tested on ( 550 000 examples ) 
