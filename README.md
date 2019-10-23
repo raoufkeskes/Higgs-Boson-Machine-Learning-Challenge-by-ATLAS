@@ -36,7 +36,7 @@ We are sure that if we had more time and only one project to do we would outperf
 ```
 #### define the AMS score ####
 '''
-- an implementation of the AMS score if you need it on your validation set 
+- an implementation of the AMS score if you need it  
 '''
 def ams(s, b):
     return np.sqrt(2 * ((s + b + 10) * np.log(1.0 + s/(b + 10)) - s))
