@@ -22,7 +22,9 @@ we have been working for days fine-tuning a [**"LightGBM"**](https://lightgbm.re
 
 ## Results 
 trained/validated on ( 250 000 examples ) tested on ( 550 000 examples ) 
+
 our final submitted KAGGLE score is    : 3.54272
+
 the winner has a score of              : 3.80581
 
 ## how to test it 
